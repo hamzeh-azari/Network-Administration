@@ -11,7 +11,7 @@ It reflects hands-on experience with tools such as Microsoft Azure, AWS, Microso
 cloud-administration/
   
  ├── scripts/ # PowerShell/Azure CLI scripts for common tasks  
- ├── tickets/ # Cloud-related incident simulations and resolutions 
+ ├── tickets/ # Cloud-related incident simulations and resolutions
  ├── projects/ # End-to-end cloud automation or configuration projects  
  └── README.md # This file  
 
