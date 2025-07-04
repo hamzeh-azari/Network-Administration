@@ -1,30 +1,29 @@
-# ☁️ Cloud Administration Toolkit
+# 🌐 Network Administration Toolkit
 
-This repository contains cloud-related automation scripts, troubleshooting cases, and real-world mini-projects focused on public and hybrid cloud infrastructure.
-
-It reflects hands-on experience with tools such as Microsoft Azure, AWS, Microsoft 365, and related cloud services.
+This repository contains scripts, case studies, and network management tools I've used or created, focusing on real-world LAN/WAN issues, monitoring, and troubleshooting.
 
 ---
 
 ## 📁 Repository Structure
 
-cloud-administration/
-  
- ├── scripts/ # PowerShell/Azure CLI scripts for common tasks  
- ├── tickets/ # Cloud-related incident simulations and resolutions  
- ├── projects/ # End-to-end cloud automation or configuration projects  
- └── README.md # This file  
+network-administration/  
+
+├── scripts/ # Scripts for DNS, IP, routing, firewall, etc.  
+├── tickets/ # Networking incidents and step-by-step resolution  
+├── projects/ # Complex or end-to-end networking configurations  
+└── README.md # This file
+
 
 ---
 
 ## 🔧 Key Topics Covered
 
-- ✅ Azure Resource Management (ARM, RBAC)
-- ✅ Microsoft 365 administration and security
-- ✅ Azure Active Directory automation
-- ✅ Exchange Online, Teams, OneDrive configuration
-- ✅ Licensing and MFA/Conditional Access management
-- ✅ Automation with PowerShell, Azure CLI, Graph API
+- ✅ DNS, DHCP, IP configuration and troubleshooting
+- ✅ Firewall and port management (Windows/Linux)
+- ✅ Network drive mapping and GPO distribution
+- ✅ Network printer deployment and debugging
+- ✅ Ping, tracert, netstat, route tools
+- ✅ PowerShell and batch scripting for network tasks
 
 ---
 
@@ -32,26 +31,25 @@ cloud-administration/
 
 | Area         | Description                                       |
 |--------------|---------------------------------------------------|
-| `scripts/azure-user-report.ps1`      | Export users and licenses from Azure AD |
-| `scripts/m365-mfa-enforcement.ps1`   | Enforce MFA using PowerShell           |
-| `projects/azure-vm-auto-shutdown`    | Automatically schedule VM shutdown     |
-| `tickets/ticket-005-mailbox-issue.md`| Troubleshoot mailbox access in Exchange Online |
+| `scripts/ip-renew.ps1`                 | Automate IP release/renew and flush DNS |
+| `scripts/firewall-rule-export.ps1`    | Export firewall rules from multiple machines |
+| `projects/gpo-network-drive-mapping/` | Automate drive mapping using GPO and scripts |
+| `tickets/ticket-010-dns-resolution.md`| Investigating DNS name resolution issues |
 
 ---
 
 ## 🛠️ Tools & Technologies Used
 
 - PowerShell
-- Azure CLI
-- Graph API
-- Microsoft 365 Admin Center
-- Exchange Admin Center
-- Intune & Endpoint Manager
+- Windows Networking Tools (ipconfig, netsh, etc.)
+- Network Policy Server (NPS)
+- GPO / Group Policy Management
+- SNMP / Syslog (concepts)
 
 ---
 
 ## 📬 Contact
 
-For collaboration or questions, feel free to open an issue or connect via [LinkedIn](https://www.linkedin.com/).
+If you found something useful or want to collaborate on network tools, don’t hesitate to reach out via [LinkedIn](https://www.linkedin.com/) or GitHub issues.
 
-> 💡 Tip: Check my other repositories for System and Network Administration content!
+> 🔁 Tip: Check out my repositories for System and Cloud Administration too!
